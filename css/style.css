@@ -1,0 +1,119 @@
+/*  
+    Desenvolvido por Pietro Martins
+    Data de atualização: 21-10-2022
+    Versão 1.0
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --color1: #5C4B51;
+    --color2: #8CBEB2;
+    --color3: #F2EBBF;
+    --color4: #F3B562;
+    --color5: #F06060;
+}
+body{
+    background-color: var(--color3);
+}
+.page-name{
+    background-color: var(--color1);
+    padding: 0.5rem 1rem;
+    width: max-content;
+    border-radius: 3rem;
+    margin: 4.7rem auto auto 3.75rem;
+    /* margin-top: 4.7rem;
+    margin-left: 3.75rem; */
+    position: absolute;
+    box-shadow: 0.4rem 0.5rem 0 var(--color4), -0.4rem -0.5rem 0 var(--color2);  
+    color: var(--color3);
+}
+h1{
+    font-weight: 400;
+    font-size:2rem;
+}
+p{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.welcome{
+    background-color: var(--color1);
+    padding: 1.3rem 2rem;
+    width: 21rem;
+    border-radius: 2rem;
+    margin: 18rem auto auto 9.7rem;
+    /* margin-top: 18rem;
+    margin-left: 9.7rem; */
+    position: absolute;
+    box-shadow: 1rem 1rem 0 var(--color4);
+    color: var(--color3);
+}
+.content h1{
+    padding-bottom: 1.5rem;
+}
+.form{
+    color: var(--color3);
+    position: absolute;
+    background-color: var(--color1);
+    margin-left: 50rem;
+    margin-top: 14.7rem;
+    width: max-content;
+    padding: 1.3rem 2rem;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 0 var(--color2);
+}
+form{
+    margin-top: 1rem;
+}
+.campo{
+    padding: 0.6rem 0;
+}
+input{
+    padding: 0.5rem;
+    width: 65%;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--color3);
+}
+label{
+    font-size: 1.3rem;
+    padding-right: 0.6rem;
+}
+.btn{
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 2px solid #769790;
+    background-color: var(--color2);
+    color: var(--color1);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.button{
+    margin: 1rem auto;
+    text-align: center;
+}
+.cadastro{
+    text-align: center;
+}
+.cadastro p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.cadastro a{
+    text-decoration: none;
+    color: var(--color3);
+    font-size: 1.1rem;
+    align-items: center;
+    align-content: center;
+    font-weight: 200;
+}
+/* .cadastro a:hover{
+    font-weight: 400;
+} */

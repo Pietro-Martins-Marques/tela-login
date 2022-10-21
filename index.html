@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Página de Login</title>
 </head>
 <body>
-    
+    <div class="page-name">
+        <h1>Pietro's Development</h1>
+    </div>
+    <section class="welcome">
+        <div class="content">
+            <h1>Seja bem-vindo!</h1>
+            <p>Cadastre-se para acessar nossa plataforma.</p>
+        </div>
+    </section>
+    <div class="form">
+        <h1>Insira seus dados!</h1>
+        <form action="#">
+            <div class="campo">
+                <label for="name">Nome: </label>
+                <input type="text" name="name" placeholder="Nome completo" required><br>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" placeholder="pietrodev@email.com" required><br>
+            </div>
+            <div class="campo">
+                <label for="password">Senha: </label>
+                <input type="password" name="password" required placeholder="Insira sua senha"><br>
+            </div>
+            <div class="button">
+                <button class="btn right" type="submit">Login</button>       
+            </div>
+            <div class="cadastro">
+                <p>É novo por aqui?</p><span class="cad"><a href="#">Cadastre-se</a></span> 
+            </div>
+        </form>
+    </div>
 </body>
 </html>
